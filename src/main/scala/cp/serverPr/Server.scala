@@ -21,7 +21,6 @@ object Server {
 
       EmberServerBuilder.default[IO]
         .withHost(ipv4"127.0.0.1")
-        // TODO: you can change the port number here
         .withPort(port"8081")
         .withMaxConnections(16)
         .withHttpApp(httpApp)
