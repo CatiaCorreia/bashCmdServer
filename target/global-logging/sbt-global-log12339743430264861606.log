@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(6daf3b1f-bcf8-44ef-bda3-270299f5d656), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:46:18: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            case None =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:36:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: cats.effect.IO[org.http4s.Response[cats.effect.IO]][0m
+[0m[[0m[31merror[0m] [0m[0m          for(cmdopt <- cmds){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:38:18: pattern var cmd in value $anonfun is never used: use a wildcard `_` or suppress this warning with `cmd@_`[0m
+[0m[[0m[31merror[0m] [0m[0m            case cmd =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 17/05/2025, 23:53:30[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

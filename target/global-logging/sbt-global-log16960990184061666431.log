@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(a1ce4a46-706d-430d-b210-b7805b6de4f0), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:83:7: not found: value output[0m
+[0m[[0m[31merror[0m] [0m[0m      output = Some(task.trim.!!)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:7:26: Unused import[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.sys.process._[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:82:11: local val task in method run is never used[0m
+[0m[[0m[31merror[0m] [0m[0m      val task = poll()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:48:20: local var output in method runProcess is never updated: consider using immutable val[0m
+[0m[[0m[31merror[0m] [0m[0m    @ volatile var output : Option[String] = None[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 18/05/2025, 11:42:16[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

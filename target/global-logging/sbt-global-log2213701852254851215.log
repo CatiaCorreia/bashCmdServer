@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(f8ed4bbd-ef12-43b3-b2d2-d669dc13be05), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:36:15: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Some[A][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m          for(Some(cmdopt) <- cmds){[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:59:15: private method runProcess in object Routes is never used[0m
+[0m[[0m[31merror[0m] [0m[0m  private def runProcess(cmd: String, userIp: String): String = {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/Routes.scala:38:23: pattern var cmd in value $anonfun is never used: use a wildcard `_` or suppress this warning with `cmd@_`[0m
+[0m[[0m[31merror[0m] [0m[0m            case Some(cmd) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 17/05/2025, 23:53:05[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

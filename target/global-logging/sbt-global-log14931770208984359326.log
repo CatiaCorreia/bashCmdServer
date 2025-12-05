@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(aee1356d-19e1-461b-92f9-74c5fbb46604), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/catia-correia/Documents/fcup/3ano/prog_concorrente/process-runner/server/src/main/scala/cp/serverPr/ServerState.scala:39:34: discarded non-Unit value[0m
+[0m[[0m[31merror[0m] [0m[0m            override def run() = body[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 19/05/2025, 16:41:43[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
